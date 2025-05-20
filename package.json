@@ -1,0 +1,26 @@
+{
+  "name": "to-do-web-app",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc ",
+    "watch": "tsc --watch",
+    "start": "bun --watch dist/index.js",
+    "dev": "concurrently \"bun run watch\" \"bun run start\""
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/morgan": "^1.9.9",
+    "concurrently": "^9.1.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  }
+}
