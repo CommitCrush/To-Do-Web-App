@@ -4,10 +4,10 @@
         "module": "ESNext",
         "moduleResolution": "node",
         "outDir": "./dist",
-        "rootDir": "./src",
+        "rootDir": "backend/src",
         "strict": true,
         "esModuleInterop": true,
         "resolveJsonModule": true
       },
-       "include": ["src/**/*", "types.ts"]
+       "include": ["backend/src/**/*", "types.ts"]
      }
