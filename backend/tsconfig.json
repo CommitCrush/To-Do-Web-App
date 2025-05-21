@@ -1,13 +1,13 @@
- {
-        "compilerOptions": {
-        "target": "ESNext",
-        "module": "ESNext",
-        "moduleResolution": "node",
-        "outDir": "./dist",
-        "rootDir": "backend/src",
-        "strict": true,
-        "esModuleInterop": true,
-        "resolveJsonModule": true
-      },
-       "include": ["backend/src/**/*", "types.ts"]
-     }
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*", "types.ts"]
+}
