@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(morgan('dev'));
 
 
-app.get("/api/", (req: Request, res: Response) => {
+app.get("/api/ping", (req: Request, res: Response) => {
   res.status(200).json({ message: "pong" });
 });
 
